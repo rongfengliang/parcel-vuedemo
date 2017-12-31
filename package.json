@@ -1,0 +1,20 @@
+{
+  "name": "parceldemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "vuejs": "^2.0.19"
+  },
+  "scripts": {
+    "start": "parcel build index.html  --public-url=../ -d dalonga",
+    "help": "parcel --help"  
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "parcel-bundler": "^1.3.1",
+    "parcel-plugin-vue": "^1.4.0"
+  }
+}
