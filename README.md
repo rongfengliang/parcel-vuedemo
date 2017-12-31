@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/rongfengliang/parcel-vuedemo.svg?branch=master)](https://travis-ci.org/rongfengliang/parcel-vuedemo.svg?branch=master)
 # how to run project 
 
 *  yarn init 
