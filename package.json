@@ -7,7 +7,7 @@
     "vuejs": "^2.0.19"
   },
   "scripts": {
-    "start": "parcel build index.html  --public-url=../ -d dalonga",
+    "start": "parcel build index.html  --public-url=../ -d dist",
     "help": "parcel --help"  
   },
   "devDependencies": {
