@@ -8,11 +8,3 @@ script:
   - yarn 
   - yarn run start
 sudo: false
-deploy:
-  provider: releases
-  api_key: "728f945c30e82ab4cf20ffe470de3dad8cb50b9b"
-  file_glob: true
-  file: dist/*
-  skip_cleanup: true
-  on:
-    branch: master
