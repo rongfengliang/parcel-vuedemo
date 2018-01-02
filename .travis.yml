@@ -12,12 +12,10 @@ before_deploy:
       # Set up git user name and tag this commit
       - git config --local user.name "dalong"
       - git config --local user.email "1141591465@qq.com"
-      - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 deploy:
   provider: releases
   api_key: "728f945c30e82ab4cf20ffe470de3dad8cb50b9b"
   file: dist/*
   skip_cleanup: true
   on:
-    tags: true
     all_branches: true
